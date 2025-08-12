@@ -47,10 +47,10 @@ Your Neovim setup uses **Kickstart.nvim** - a modern, well-documented configurat
 - `:vsplit` or `:vs` - Vertical split
 
 ### Navigation
-- `<C-h>` - Move to left window
-- `<C-j>` - Move to bottom window
-- `<C-k>` - Move to top window
-- `<C-l>` - Move to right window
+- `<space>wh` - Move to left window
+- `<space>wj` - Move to bottom window
+- `<space>wk` - Move to top window
+- `<space>wl` - Move to right window
 
 ### Resizing
 - `<C-w>=` - Equal size windows
