@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pandas_tips"
+version = "0.1.0"
+description = "Pandas tips and tricks"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "spacy",
+]
+
+[project.optional-dependencies]
+dev = [
+    "jupyter",
+    "notebook",
+]
